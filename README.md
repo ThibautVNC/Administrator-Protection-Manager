@@ -19,6 +19,17 @@ Administrator Protection is a Windows 11 security feature (shipped broadly with 
 
 A **reboot is always required** for a change to take effect.
 
+### Availability & versions
+
+Administrator Protection became **generally available with KB5120998** (released 27 Aug 2026):
+
+| Windows 11 version | Build with KB5120998 |
+|--------------------|----------------------|
+| 25H2               | 26200.9278           |
+| 24H2               | 26100.9278           |
+
+It is **off by default** on standard installs — you enable it via policy, registry or the Windows Security app. However, if your organization uses **Windows security baselines**, Administrator Protection becomes **enabled by default with the October 2026 security update**, and the baselines for **26H2, 25H2 and 24H2** all include that new default. Supported editions: Home, Pro, Enterprise, Education. Not supported on Windows 365 Cloud PCs or Azure Virtual Desktop session hosts.
+
 ---
 
 ## Files
